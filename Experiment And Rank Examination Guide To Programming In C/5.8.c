@@ -1,4 +1,4 @@
-#include <stdio.h>
+/*#include <stdio.h>
 #include <math.h>
 float high(int n)
 {
@@ -16,5 +16,20 @@ int main(void)
     }
     printf("sum=%f\n",sum);
     printf("8th=%.1f\n",high(8));
+    return 0;
+}*/
+
+#include <stdio.h>
+int main(void)
+{
+    float h=100,s=h/2;
+    int n;
+    for(n=2;n<=8;n++)
+    {
+        h=h+2*s;
+        s=s/2;
+    }
+    printf("sum=%f\n",h);
+    printf("8th=%.1f\n",s);
     return 0;
 }
