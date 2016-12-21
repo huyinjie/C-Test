@@ -11,6 +11,7 @@ int main(void)
             if (i%j!=0) continue;
             else break;
         }
-        printf("%d");
+        printf("%d",i);
     }
+    return 0;
 }
