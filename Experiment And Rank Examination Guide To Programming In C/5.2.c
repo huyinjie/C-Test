@@ -10,6 +10,7 @@ int primer_number(int a)
     }
     return m;
 }
+
 int main(void)
 {
     int i;
