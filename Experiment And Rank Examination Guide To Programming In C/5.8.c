@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <math.h>
-int high(int n)
+float high(int n)
 {
     float m;
     m=100/(pow(2,n));
