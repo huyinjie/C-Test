@@ -10,7 +10,7 @@ float high(int n)
 int main(void)
 {
     float sum=100,i;
-    for(i=1;i<=7;i++)
+    for(i=1;i<8;i++)
     {
         sum=sum+(100/pow(2,i))*2;
     }
