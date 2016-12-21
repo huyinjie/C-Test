@@ -17,7 +17,7 @@ int main(void)
     x=max(a,b);
     y=min(a,b);
 
-    if (m!=0)
+    while (m!=0)
     {
         m=x%y;
         x=y;
