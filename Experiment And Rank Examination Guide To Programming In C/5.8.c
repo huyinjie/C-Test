@@ -31,5 +31,6 @@ int main(void)
     }
     printf("sum=%f\n",h);
     printf("8th=%.1f\n",s);
+    
     return 0;
 }
