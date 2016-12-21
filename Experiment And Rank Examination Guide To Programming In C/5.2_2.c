@@ -3,16 +3,17 @@
 
 int primer_number(int a)
 {
-    int i;
+    int i,m=0;
     for(i=2;i<2/a;i++)
     {
-        if (a%i==0) return 1;
+        if (a%i==0) return m=1;
     }
+    return m;
 }
 int main(void)
 {
     int i;
-    for(i=500;i<1001;i++)
+    for(i=500;i<=1000;i++)
     {
         if(primer_number(i)==0) printf("%4d\n",i);
     }
