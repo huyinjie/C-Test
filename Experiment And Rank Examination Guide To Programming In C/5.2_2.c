@@ -4,7 +4,7 @@
 int primer_number(int a)
 {
     int i,m=0;
-    for(i=2;i<2/a;i++)
+    for(i=2;i<a/2;i++)
     {
         if (a%i==0) return m=1;
     }
