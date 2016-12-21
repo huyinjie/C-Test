@@ -12,7 +12,7 @@ int min(int a,int b)
 
 int main(void)
 {
-    int a,b,x,y;
+    int a,b,x,y,m;
     scanf("%d%d",&a,&b);
     x=max(a,b);
     y=min(a,b);
