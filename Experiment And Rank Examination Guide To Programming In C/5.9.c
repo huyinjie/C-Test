@@ -8,4 +8,5 @@ int main(void)
         printf("%d%d%d",(i+1),(j+1),(i+1)*(j+1));
     }
     printf("\n");
+    return 0;
 }
