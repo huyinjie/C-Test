@@ -9,6 +9,6 @@ int main(void)
     {
         if(a[0]<a[i]) max=a[i];
     }
-    printf("%d",max);
+    printf("%d\n",max);
     return 0;
 }
