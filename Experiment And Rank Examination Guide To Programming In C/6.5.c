@@ -6,7 +6,7 @@ int main(void)
     for(i=0;i<5;i++)
         for(j=0;j<5;j++)
             scanf("%d",&a[i][j]);
-    for(i=0;j=0;i<5;i++,j++)
+    for(i=0,j=0;i<5;i++,j++)
         sum=sum+a[i][j];
     printf("%d",sum);
     return 0;
