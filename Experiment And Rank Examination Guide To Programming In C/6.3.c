@@ -16,5 +16,8 @@ int main(void)
             a[i+1]=max;
         }
     }
+    printf("\n");
+    for(i=0;i<N+1;i++)
+        printf("%4d",a[i]);
     return 0;
 }
