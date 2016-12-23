@@ -17,9 +17,13 @@ int main(void)
         }
     
     for(i=0;i<5;i++)
+    {
         for(j=0;j<5;j++)
-           printf("%4d\n",a[i][j]);
+        {
+            printf("%4d",a[i][j]);
+        }
         printf("\n");
+    }
     
     return 0;
 }
