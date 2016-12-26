@@ -1,3 +1,4 @@
+//判段奇偶性
 #include <stdio.h>
 int main(void)
 {
