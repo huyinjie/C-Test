@@ -1,3 +1,4 @@
+//输出500~1000的素数
 #include <stdio.h>
 #include <math.h>
 
