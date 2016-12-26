@@ -1,3 +1,4 @@
+//输出1000以内所有的完数
 #include <stdio.h> 
 int main(void) 
 { 
