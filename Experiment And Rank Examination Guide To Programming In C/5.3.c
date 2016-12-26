@@ -1,3 +1,4 @@
+//辗转相除法计算最大公约数和最小公倍数
 #include <stdio.h>
 int max(int a,int b)
 {
