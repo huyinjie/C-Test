@@ -1,3 +1,4 @@
+//输出所有的水仙花数
 #include <stdio.h>
 int unit(int i)
 {
