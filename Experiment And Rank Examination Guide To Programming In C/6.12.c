@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main(void)
 {
+    //int my_strlen(const char * str)
     char str[20];
     scanf("%s",str);
     printf("%d",my_strlen(str));
