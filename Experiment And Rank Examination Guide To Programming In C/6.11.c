@@ -15,7 +15,6 @@ int main(void)
     char a[20],b[20];
     scanf("%s",a);
     scanf("%s",b);
-    my_strcat(a,b);
-    printf("%s\n",a);
+    printf("%s\n",my_strcat(a,b));
     return 0;
 }
