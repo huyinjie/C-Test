@@ -7,18 +7,18 @@ int main(void)
     scanf("%s",str1);
     scanf("%s",str2);
     
-    while(str1[i]!=EOF)
+    while(str1[i]!='\0')
     {
         i++;
         k++;
     }
     
-    while(str2[j]!=EOF)
+    while(str2[j]!='\0')
     {
         str1[k+1]=str2[j];
         j++;
         k++;
     }
-    printf("%s\n",strlink(str1,str2));
+    printf("%s\n",str1);
     
 }
