@@ -13,7 +13,7 @@ int main(void)
 char strlink(char str1[20], char str2[20])
 {
 	int i = 0, k = 0, j = 0;
-	while (str1[i] != '/0')
+	while (str1[i] != '\0')
 	{
 		i++;
 		k++;
