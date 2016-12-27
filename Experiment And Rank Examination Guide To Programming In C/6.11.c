@@ -1,29 +1,23 @@
 #include <stdio.h>
 
-int main(void)
+char *my_strcat(char *dest, const char *src)
 {
-	char strlink(char str1[20], char str2[20]);
-	char str1[20], str2[20];
-	scanf("%s", str1);
-	scanf("%s", str2);
-	printf("%s", strlink(str1,str2));
-	return 0;
+    size_t i,j;
+    for (i=0; dest[i]!='\0'; i++)
+        ;
+    for (j=0; src[j]!='\0'; j++)
+        dest[i+j]=src[j];
+    dest[i+j]='\0';
+    return dest;
 }
 
-char strlink(char str1[20], char str2[20])
-{
-	int i = 0, k = 0, j = 0;
-	while (str1[i] != '\0')
-	{
-		i++;
-		k++;
-	}
 
-	do {
-		str1[k] = str2[j];
-		j++;
-		k++;
-	} while (str2[j] != '\0');
-	str1[k] = '\0';
-	return str1[20];
+int main(void)
+{
+    char a[10],b[10];
+    scanf("%s",a);
+    scanf("%s",b);
+    my_strcat(a,b);
+    printf("%s\n",a);
+    return 0;
 }
