@@ -5,7 +5,7 @@ int main(void)
     char str1[20],str2[20];
     scanf("%s",str1);
     scanf("%s",str2);
-    printf("%s",strlink(str1));
+    printf("%s",strlink(str1[],str2[]));
     return 0;
 }
 
