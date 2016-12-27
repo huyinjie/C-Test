@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 char *my_strcat(char *dest, const char *src)
 {
     size_t i,j;
