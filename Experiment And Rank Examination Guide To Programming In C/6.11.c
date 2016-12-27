@@ -12,9 +12,9 @@ char *my_strcat(char *dest, const char *src)
 
 int main(void)
 {
-    char a[20],b[20];
-    scanf("%s",a);
-    scanf("%s",b);
-    printf("%s\n",my_strcat(a,b));
+    char str1[20],str2[20];
+    scanf("%s",str1);
+    scanf("%s",str2);
+    printf("%s\n",my_strcat(str1,str2));
     return 0;
 }
