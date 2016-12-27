@@ -11,7 +11,6 @@ char *my_strcat(char *dest, const char *src)
     return dest;
 }
 
-
 int main(void)
 {
     char a[20],b[20];
