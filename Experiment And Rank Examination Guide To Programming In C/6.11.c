@@ -6,7 +6,9 @@ int main(void)
     scanf("%s",str1);
     scanf("%s",str2);
     printf("%s",strlink(str1));
+    return 0;
 }
+
 void strlink(char str1[],char str2[])
 {
     int i=0,k=0,j=0;
