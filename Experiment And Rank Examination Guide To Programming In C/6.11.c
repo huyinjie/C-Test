@@ -14,7 +14,7 @@ char *my_strcat(char *dest, const char *src)
 
 int main(void)
 {
-    char a[10],b[10];
+    char a[20],b[20];
     scanf("%s",a);
     scanf("%s",b);
     my_strcat(a,b);
