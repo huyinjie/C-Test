@@ -2,12 +2,21 @@
 
 int main(void)
 {
+<<<<<<< HEAD
 	char strlink(char str1[20], char str2[20]);
 	char str1[20], str2[20];
 	scanf("%s", str1);
 	scanf("%s", str2);
 	printf("%s", strlink(str1,str2));
 	return 0;
+=======
+    void strlink(char str1[],char str2[]);
+    char str1[20],str2[20];
+    scanf("%s",str1);
+    scanf("%s",str2);
+    printf("%s",strlink(str1[20],str2[20]));
+    return 0;
+>>>>>>> origin/master
 }
 
 char strlink(char str1[20], char str2[20])
