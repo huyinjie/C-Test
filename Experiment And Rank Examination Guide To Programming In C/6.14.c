@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(void)
 {
-    int i,m,num[25]={0};
+    int i,m,num[26]={0};
     int max=num[0];
     char c;
     while((c=getchar())!='#')
@@ -14,5 +14,6 @@ int main(void)
             max=num[i];
             m=i;
         } 
-    printf("%s:%d",i+'A',max);
+    printf("%c:",m+65);
+    printf("%d\n",max);
 }
