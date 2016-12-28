@@ -5,7 +5,7 @@ int main(void)
     char c;
     while((c=getchar())!='#')
     {
-        if(c>=65&&c<=90) num[c-'A']+=1;
+        if(c>=65 && c<=90) num[c-'A']+=1;
         
     }
 }
