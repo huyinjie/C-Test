@@ -1,11 +1,13 @@
 #include <stdio.h>
 int main(void)
 {
-    size_t my_strlen(const char *str)
+    size_t my_strlen(const char *str);
+    
     char str[20];
     scanf("%s",str);
     int l=my_strlen(str);
-    printf("%d",l);
+    printf("%d\n",l);
+    
     return 0;    
 }
 
