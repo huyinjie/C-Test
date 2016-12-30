@@ -1,3 +1,4 @@
+//杨辉三角前十行
 #include <stdio.h>
 int main(void)
 {
