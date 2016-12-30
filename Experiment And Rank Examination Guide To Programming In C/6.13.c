@@ -1,3 +1,4 @@
+//判断字符串是否'回文'
 #include <stdio.h>
 #include <string.h>
 int main(void)
