@@ -1,5 +1,5 @@
 //九九乘法表
-#include <stdio.h>
+/*#include <stdio.h>
 int main(void)
 {
     int i,j;
@@ -12,4 +12,20 @@ int main(void)
         printf("\n");
     } 
     return 0;
+}*/
+#include<stdio.h>
+int main()
+{
+   int i,j;
+   for(int i=1,j=1;j<=9;i++){
+      printf("%d*%d=%2d ",i,j,i*j);
+      if(i==j){
+         i=0;
+         j++;
+         printf("\n");
+      }
+   }
+   return 0;
 }
+
+jjj
