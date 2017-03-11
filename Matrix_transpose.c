@@ -36,7 +36,6 @@ void Average(int a[100][100],int n)
         }
     }
     printf("Average=%3.1f\n",(sum/count));
-
 }
 //对角线元素之和
 void Diagonal(int a[100][100],int n)
@@ -86,7 +85,6 @@ int main(void)
             scanf("%d",&a[i][j]);
         }
     }
-
     MatrixTurn(a,n);
     Average(a,n);
     Diagonal(a,n);
