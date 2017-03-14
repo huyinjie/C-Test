@@ -3,8 +3,10 @@
 int main(void)
 {
     int c;
-    
-    while(c=getchar()!= EOF)
+
+    while(c=getchar()!= EOF) //c=getchar()!= EOF等价于c=（getchar()!= EOF）
+    {
         printf("%d\n",c);
+    }
     printf("%d - at EOF\n",c);
 }
