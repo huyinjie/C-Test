@@ -1,3 +1,4 @@
+//验证布尔表达式getchar()!=EOF的取值是0还是1
 #include <stdio.h>
 int main(void)
 {
