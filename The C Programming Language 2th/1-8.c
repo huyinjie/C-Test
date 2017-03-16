@@ -18,6 +18,5 @@ int main(void)
             ++nl;
     }
     printf("blanks=%d,tabs=%d,newlines=%d",nb,nt,nl);
-    
     return 0;
 }
