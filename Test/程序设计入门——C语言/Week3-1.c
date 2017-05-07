@@ -14,6 +14,8 @@
 输出样例：
 4 2
 */
+
+//Way 1
 #include <stdio.h>
 int main()
 {
@@ -25,6 +27,23 @@ int main()
 		if(c==-1) break;
 		if(c%2==0) even++;
 		else odd++;
+	}
+	printf("%d %d",odd,even);
+	return 0;
+}
+
+//Way 2
+#include <stdio.h>
+int main()
+{
+	int c,i,a[1000];
+	int even=0,odd=0;
+	for(i=0;i<1000;i++)
+	{
+		scanf("%d",&a[i]);
+		if(a[i]==-1) break;
+		if(a[i]%2==1) odd++;
+		if(a[i]%2==0) even++;
 	}
 	printf("%d %d",odd,even);
 	return 0;
