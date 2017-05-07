@@ -18,6 +18,8 @@
 输出样例：
 13
 */
+
+//Way 1
 #include <stdio.h>
 #include <math.h>
 int main(){
@@ -35,5 +37,29 @@ int main(){
         x /=10;
     }while(x>0);
     printf("%d",dig);
+    return 0;
+}
+
+//Way 2
+#include<stdio.h>
+int main()
+{
+    int n=1;
+    int h=1;
+    int num;
+    int flag=0;
+    scanf("%d",&num);
+ 
+    while(num != 0)
+    {
+        if((num+n)%2==0)
+        {
+            flag = flag + h;
+        }
+        n++;
+        num = num / 10;//删去最后一位数
+        h=h*2;
+    }
+    printf("%d/n",flag);
     return 0;
 }
