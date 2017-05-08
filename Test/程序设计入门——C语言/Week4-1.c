@@ -23,17 +23,20 @@ int main(void)
 {
 	int n, m;
 	int x = 1, sub = 0, sum = 0;
-	scanf("%d %d",&n,&m);
+	scanf("%d %d", &n, &m);
 	int a[200];
-	for (x = 1, sub = 0; sub != m+1; x++) {
-		if (primer_number(x) == 1){
-			a[sub] = x;
-			sub++;
+	if(n<=m && n>0 &&m<=200){
+		for (x = 1, sub = 0; sub != m + 1; x++) {
+			if (primer_number(x) == 1) {
+				a[sub] = x;
+				sub++;
+			}
+		}
+		for (int i = n - 1; i <= m - 1; i++) {
+			sum = sum + a[i];
 		}
 	}
-	for (int i = n-1; i <= m-1; i++) {
-		sum =sum + a[i];
-	}
+
 	printf("%d\n", sum);
 	return 0;
 }
