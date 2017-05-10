@@ -1,4 +1,6 @@
 //输出1000以内所有的完数
+
+//Way 1
 #include <stdio.h> 
 int main(void) 
 { 
@@ -11,5 +13,34 @@ int main(void)
             if(j%i==0) s=s+i; 
         }
         if(s==j) printf("%d\n",s); 
-    } 
+    }
+    return 0; 
 } 
+
+//Way 2
+	main() 
+{
+  static int k[10];   
+  int i,j,n,s;       
+  for(j=2;j<=1000;j++) 
+  {
+    n=-1; s=j; 
+    for(i=1;i<j;i++) 
+    {
+      if(j%i==0) 
+      {
+ 	n++;
+ 	s=s-i;
+	k[n]=i;
+      } 
+    } 
+    if(s==0) 
+    {
+      printf("%d是一个完数,它的因子是",j); 
+      for(i=0;i<n;i++) 
+        printf("%d ,",j); 
+      printf("%d\n",k[n]); 
+    } 
+      
+  }  
+}
