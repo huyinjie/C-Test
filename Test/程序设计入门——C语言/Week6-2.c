@@ -30,3 +30,28 @@ int main(void)
 	}
 	return 0;
 }
+
+//
+#include<stdio.h>
+int main()
+{
+    int n,m,count=0;
+    scanf("%d %d",&n,&m);
+    for(;n<=m;n++)
+    {
+        int sum=0;
+        for(int i=1;i<n;i++)
+        {
+              
+            if (n%i==0)    sum+=i;
+        }
+        if (sum==n)    
+        {
+            if (count==0)  printf("%d",n);
+            else    printf(" %d",n);
+            count++;
+        }
+    }
+    if (count==0) printf("NIL\n");
+    return 0;
+}
