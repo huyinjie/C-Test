@@ -1,31 +1,15 @@
 //辗转相除法计算最大公约数和最小公倍数
-#include <stdio.h>
-int max(int a,int b)
+#include<stdio.h>  
+void main()   /*  辗转相除法求最大公约数 */
 {
-    if (a>b) return a;
-    else return b;
-}
-int min(int a,int b)
-{
-    if (a<b) return a;
-    else return b;
-}
-
-int main(void)
-{
-    int a,b,x,y,m;
-    scanf("%d%d",&a,&b);
-    x=max(a,b);
-    y=min(a,b);
-
-    while (m!=0)
-    {
-        m=x%y;
-        x=y;
-        y=m;
-    }
-    printf("the largest common divisor is %d\n",x);
-    printf("the least common multiple is %d\n",(a*b)/x);
-
-    return 0;
+	int m, n, a, b, t, c;
+	printf("Input two integer numbers:\n");
+	scanf("%d%d", &a, &b);
+	m = a;   n = b;
+	while (b != 0)  /* 余数不为0，继续相除，直到余数为0 */
+	{
+		c = a%b; a = b;  b = c;
+	}
+	printf("The largest common divisor:%d\n", a);
+	printf("The least common multiple:%d\n", m*n / a);
 }
