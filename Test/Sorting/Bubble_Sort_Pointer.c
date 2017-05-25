@@ -1,3 +1,4 @@
+//冒泡排序（指针）
 #include <stdio.h>
 void bubble_sort(int arr[], int len) {
 	int i, j, temp;
