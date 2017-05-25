@@ -24,21 +24,16 @@ int main(void)
 	return 0;
 }
 //m × n矩阵
-void MatrixTurn(int a[100][100], int n,int m)
-{
+void MatrixTurn(int a[100][100], int n,int m){
 	int i, j, k;
 	int b[100][100];
-	for (i = 0; i< m; i++)
-	{
-		for (j = 0; j< n; j++)
-		{
+	for (i = 0; i< m; i++){
+		for (j = 0; j< n; j++){
 			b[j][i] = a[i][j];
 		}
 	}
-	for (i = 0; i<n; i++)
-	{
-		for (j = 0; j<m; j++)
-		{
+	for (i = 0; i<n; i++){
+		for (j = 0; j<m; j++){
 			printf("%3d", b[i][j]);
 		}
 		printf("\n");
