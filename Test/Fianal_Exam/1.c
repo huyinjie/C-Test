@@ -2,7 +2,7 @@
 //http://blog.csdn.net/yuxikuo_1/article/details/41826469
 #include <stdio.h>
 #include <assert.h>
-char *strcpy(char *dst, const char *src);
+char *strcpy(char *dst, const char *src); //destination,source
 int main(void)
 {
 	char a[20] = "Hello,world";
