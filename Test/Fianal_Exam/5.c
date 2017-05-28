@@ -1,6 +1,5 @@
-/*
-对二维数组m × n矩阵的转置
-*/
+//对二维数组m × n矩阵的转置
+
 #include<stdio.h>
 void MatrixTurn(int a[100][100], int n, int m);
 
