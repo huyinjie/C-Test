@@ -1,6 +1,4 @@
-/*
-求素数
-*/
+//求素数
 
 #include <stdio.h>
 int primer_number(int a);
