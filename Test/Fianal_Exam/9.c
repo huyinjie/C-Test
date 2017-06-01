@@ -1,7 +1,7 @@
-//最大公约数和最小公倍数
+//辗转相除法求最大公约数和最小公倍数
 //来源http://blog.csdn.net/iwm_next/article/details/7450424
 
-//辗转相除法
+
 #include<stdio.h>  
 int main(void)   /*  辗转相除法求最大公约数 */
 {
@@ -18,5 +18,3 @@ int main(void)   /*  辗转相除法求最大公约数 */
 
 	return 0;
 }
-
-//相减法
