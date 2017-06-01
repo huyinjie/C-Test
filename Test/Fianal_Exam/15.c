@@ -1,4 +1,4 @@
-//10!递归
+//n!递归
 #include <stdio.h>
 int factorial(int n);
 int main(void)
