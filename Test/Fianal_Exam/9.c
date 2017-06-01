@@ -1,6 +1,9 @@
-//最大公约数和最小公倍数（辗转相除法）
+//最大公约数和最小公倍数
+//来源http://blog.csdn.net/iwm_next/article/details/7450424
+
+//辗转相除法
 #include<stdio.h>  
-void main()   /*  辗转相除法求最大公约数 */
+int main(void)   /*  辗转相除法求最大公约数 */
 {
 	int m, n, a, b, t, c;
 	printf("Input two integer numbers:\n");
@@ -12,4 +15,8 @@ void main()   /*  辗转相除法求最大公约数 */
 	}
 	printf("The largest common divisor:%d\n", a);
 	printf("The least common multiple:%d\n", m*n / a);
+
+	return 0;
 }
+
+//相减法
