@@ -11,7 +11,9 @@ int main(void)   /*  辗转相除法求最大公约数 */
 	m = a;   n = b;
 	while (b != 0)  /* 余数不为0，继续相除，直到余数为0 */
 	{
-		c = a%b; a = b;  b = c;
+		c = a%b; 
+		a = b;  
+		b = c;
 	}
 	printf("The largest common divisor:%d\n", a);
 	printf("The least common multiple:%d\n", m*n / a);
