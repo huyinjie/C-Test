@@ -1,6 +1,6 @@
 /*
 将三个数从小到大输出（利用指针）
-冒泡排序
+冒泡排序 其他排序详见6.c
 */
 #include <stdio.h>
 int main(void)
