@@ -11,7 +11,7 @@ int main(void)
 
 	return 0;
 }
-void minmax(int a[], int len, int *min, int *max) //[]必修留空
+void minmax(int a[], int len, int *min, int *max) //a[]必修留空,a[]可以替换成*a
 {
 	int i;
 	*min = *max = a[0];
