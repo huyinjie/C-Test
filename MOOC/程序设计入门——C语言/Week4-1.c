@@ -25,7 +25,7 @@ int main(void)
 	int x = 1, sub = 0, sum = 0;
 	scanf("%d %d", &n, &m);
 	int a[200];
-	if(n<=m && n>0 &&m<=200){
+	if(n<=m && n>0 && m<=200){
 		for (x = 1, sub = 0; sub != m + 1; x++) {
 			if (primer_number(x) == 1) {
 				a[sub] = x;
